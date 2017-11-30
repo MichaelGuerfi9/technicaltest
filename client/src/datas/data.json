@@ -1,0 +1,98 @@
+{
+    "games": [
+        {
+            "timestamp": 1495233900,
+            "stadium": "Parc des princes",
+            "homeTeamScore": {
+                "teamId": 5678,
+                "score": 3
+            },
+            "awayTeamScore": {
+                "teamId": 1234,
+                "score": 3
+            }
+        },
+        {
+            "timestamp": 1492725600,
+            "stadium": "Camp nou",
+            "homeTeamScore": {
+                "teamId": 1234,
+                "score": 5
+            },
+            "awayTeamScore": {
+                "teamId": 5678,
+                "score": 3
+            }
+        },
+        {
+            "timestamp": 1500125400,
+            "stadium": "Stamford Bridge",
+            "homeTeamScore": {
+                "teamId": 1234,
+                "score": 1
+            },
+            "awayTeamScore": {
+                "teamId": 5678,
+                "score": 3
+            }
+        }
+    ],
+
+    "teams": [
+        {
+            "id": 1234,
+            "name": "Paris Saint Germain"
+        },
+        {
+            "id": 5678,
+            "name": "Bastia"
+        }
+    ],
+
+    "players": [
+        {
+            "id": 41231,
+            "firstName": "Edison",
+            "lastName": "Cavani",
+            "teamId": 1234
+        },{
+            "id": 12378,
+            "firstName": "Serge",
+            "lastName": "Aurier",
+            "teamId": 1234
+        },{
+            "id": 35678,
+            "firstName": "Blaise",
+            "lastName": "Matuidi",
+            "teamId": 5678
+        }
+    ],
+
+    "medias": [
+        {
+            "playerId": 12378,
+            "path": "./img/player1.png",
+            "type": "player"
+        },
+        {
+            "playerId": 41231,
+            "path": "./img/player2.png",
+            "type": "player"
+        },
+        {
+            "playerId": 35678,
+            "path": "./img/player3.png",
+            "type": "player"
+        },
+        {
+            "teamId": 1234,
+            "path": "./img/psg.png",
+            "type": "logo"
+        },
+        {
+            "teamId": 5678,
+            "path": "./img/bastia.png",
+            "type": "logo"
+        }
+    ]
+}
